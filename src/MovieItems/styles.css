@@ -1,0 +1,11 @@
+.movie_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.movie_container img{
+width: 50%;
+}
